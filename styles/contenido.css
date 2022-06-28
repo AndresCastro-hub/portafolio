@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.contenido{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidoTexto{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contactoLinks{
+   
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.bienvenido{
+    font-size: 25px;
+    color: #94a1b2;
+}
+
+.nombre{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+
+.descripcion{
+    font-size: 35px;
+    color:#94a1b2;
+}
+
+.descripcion2{
+    color: white;
+    font-size: 25px;
+    font-weight:800;
+    margin-top: 5px;
+}
+
+.contactame{
+    display: block;
+    padding: 19px 32px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    border-radius: 3px;
+    background-color: #647dee;
+    cursor: pointer;
+    margin-right: 35px;
+}
+
+.fa-brands{
+    color: rgb(44.705883%,45.882353%,49.411765%);
+    font-size: 41px;
+    font-weight: 100;
+}
+
+.imgMobile{
+    display: none;
+}
+

@@ -1,0 +1,112 @@
+.sobreMi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.sobreMiContenido{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 68%;
+    gap: 100px;
+    
+   
+    /* Con este ajusta el contenido despues */
+}
+
+.sobreMiTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sobreMiHabilidades{
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   gap: 50px;
+}
+
+.sobreMiHabilidades ul li{
+    list-style: none;
+}
+
+.sobreMiHabilidades{
+    margin-top: 20px;
+}
+
+.sobreImg{ 
+    width: 450px;
+    border-radius: 5px;
+}
+
+.sobreMiTexto p {
+    font-size: 25px;
+    color: #94a1b2;
+    line-height: 40px;
+}
+
+.sobreMiTexto h3{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.sobreMiTexto h4{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.sobreMiCv{
+    margin-top: 30px;
+    display: block;
+    padding: 19px 30px;
+    width: fit-content;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 3px;
+    background-color: #647dee;
+    cursor: pointer;
+}
+
+/*Iconos */
+
+.fa-html5{
+    color: #E54C21;
+}
+
+.fa-react{
+    color: #61DAFB;
+}
+
+.fa-css3-alt{
+    color: #0096DC;
+}
+
+.fa-sass{
+    color: #C76494;
+}
+
+.fa-bootstrap{
+    color: #543A7B;
+}
+
+.fa-js{
+    color: yellow;
+}
+
+.fa-circle-c{
+    color: white;
+}
+
+.fa-git-alt{
+    color: red;
+}
+
+.type{
+    margin: 0 !important;
+    padding: 0 !important;
+}
